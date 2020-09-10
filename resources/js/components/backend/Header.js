@@ -280,7 +280,9 @@ export default class Header extends React.Component{
                                 <span style={{color:"#000"}}>{this.state.user.name??""}</span>
                             </button>
                             <ul className="dropdown-content">
-                                <li><button className="btn btn-danger" onClick={this.submit.bind(this)}>Logout</button></li>
+                                <li><a href="#" >Profile</a></li>
+                                <li><a onClick={this.submit.bind(this)}>Logout</a></li>
+                                
                             </ul> 
                         </li>
                     )
