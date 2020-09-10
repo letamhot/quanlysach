@@ -23,9 +23,9 @@ export default class Footer extends Component{
                             <h2 className="ftco-heading-2">Book Shop</h2>
                             <p>Welcome to customers who have visited the shop</p>
                             <ul className="ftco-footer-social list-unstyled float-md-left float-lft mt-5">
-                            <li className="ftco-animate"><a href="#"><span className="icon-twitter" /></a></li>
-                            <li className="ftco-animate"><a href="#"><span className="icon-facebook" /></a></li>
-                            <li className="ftco-animate"><a href="#"><span className="icon-instagram" /></a></li>
+                            <li className="ftco-animate"><a href="https://twitter.com/letamhot"><span className="icon-twitter" /></a></li>
+                            <li className="ftco-animate"><a href="https://www.facebook.com/Letamhot/"><span className="icon-facebook" /></a></li>
+                            <li className="ftco-animate"><a href="https://www.instagram.com/letamhot/"><span className="icon-instagram" /></a></li>
                             </ul>
                         </div>
                         </div>
@@ -34,9 +34,8 @@ export default class Footer extends Component{
                             <h2 className="ftco-heading-2">Menu</h2>
                             <ul className="list-unstyled">
                             <li><a href="/shop" className="py-2 d-block">Shop</a></li>
-                            <li><a href="#" className="py-2 d-block">About</a></li>
-                            <li><a href="#" className="py-2 d-block">Journal</a></li>
-                            <li><a href="#" className="py-2 d-block">Contact Us</a></li>
+                            <li><a href="/cart" className="py-2 d-block">Cart</a></li>
+                            <li><a href="/order" className="py-2 d-block">Order</a></li>
                             </ul>
                         </div>
                         </div>
