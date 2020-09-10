@@ -337,7 +337,13 @@ export default class Bill extends Component{
             );
         }else{
             return(
+                <>
+                <Title render="Bill"/>
+                <Favicon url="https://image.flaticon.com/icons/svg/1259/1259767.svg" />
+
+
                 <div><a href="/">Lỗi</a></div>
+                </>
                 
             )
         }

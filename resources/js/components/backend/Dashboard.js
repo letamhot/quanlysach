@@ -292,7 +292,13 @@ export default class Dashboard extends Component {
     );
     }else{
       return(
-        <div><a href="/">Lỗi</a></div>
+              <>
+                <Title render="Dashboard"/>
+                <Favicon url="https://image.flaticon.com/icons/svg/1259/1259767.svg" />
+
+
+                <div><a href="/">Lỗi</a></div>
+              </>
 
       )
     }

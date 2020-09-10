@@ -18,7 +18,7 @@ export default class Section1 extends Component{
                                 <img className="one-third order-md-last img-fluid" src="images/ttp.png" style={{width:"100%" , height:"100%"}} alt="" />
                                 <div className="one-forth d-flex align-items-center ftco-animate" data-scrollax=" properties: { translateY: '70%' }">
                                     <div className="text">
-                                        <span className="subheading">#New Arrival</span>
+                                        {/* <span className="subheading">#New Arrival</span> */}
                                         <div className="horizontal">
                                             <h1 className="mb-4 mt-3" style={{border: '3px solid red', color:'red', textAlign:"center", fontSize:'40px', fontFamily: 'Bookman, Tahoma, Verdana' }}>Trương Tam Phong Truyện</h1>
                                             <p><a href="/" className="btn-custom">Discover Now</a></p>
@@ -35,7 +35,7 @@ export default class Section1 extends Component{
                                 <img className="one-third order-md-last img-fluid" src="images/yeu-anh-hon-ca-tu-than.png" style={{width:"100%", height:"100%"}} alt="" />
                                 <div className="one-forth d-flex align-items-center ftco-animate" data-scrollax=" properties: { translateY: '70%' }">
                                     <div className="text">
-                                        <span className="subheading">#New Arrival</span>
+                                        {/* <span className="subheading">#New Arrival</span> */}
                                         <div className="horizontal">
                                             <h1 className="mb-4 mt-3" style={{border: '3px solid red' ,color:'red', textAlign:"center", fontSize:'40px', fontFamily: 'Bookman, Tahoma, Verdana'}}>Yêu anh hơn cả tử thần</h1>
                                             <p><a href="/" className="btn-custom">Discover Now</a></p>
