@@ -22,7 +22,7 @@ class CreateBillsTable extends Migration
             $table->string('address')->nullable();
             $table->boolean('status')->nullable()->default(0);
             $table->boolean('pay')->nullable()->default(0);
-            $table->date('date_order')->nullable()->default(DB::raw('CURRENT_TIMESTAMP'));
+            $table->date('date_order')->nullable()->userCurrent();
             $table->timestamps();
         });
     }
