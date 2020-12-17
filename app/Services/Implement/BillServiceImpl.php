@@ -37,7 +37,7 @@ class BillServiceImpl extends BaseServiceImpl implements BillService
     public function destroy($bill)
     {
         try {
-            $bill->destroy();
+            $bill->delete();
         } catch (\Exception $e) {
             return null;
         }
