@@ -24,7 +24,7 @@ class ProductDetailRepositoryImpl extends EloquentRepository implements ProductD
     {
         // dd(request('search'));
         try {
-                return  $this->model::where('slug', $slug)->get()->first();      
+                return  $this->model::where('slug', $slug)->get();      
         } catch (\Exception $e) {
             return null;
         }
