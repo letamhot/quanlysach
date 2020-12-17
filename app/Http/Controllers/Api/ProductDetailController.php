@@ -47,7 +47,7 @@ class ProductDetailController extends Controller
         try {
            
             $product_detail = $this->productDetailService->productDetail($slug);
-            return $product_detail->fresh(['category', 'producer']);
+            return $product_detail->fresh(["category", "producer"]);
         } catch (\Exception $e) {
             return $e->getMessage();
         }
